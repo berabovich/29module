@@ -12,7 +12,7 @@ func main() {
 
 	m := make(map[string]*student.Student)
 	studentStorage := storage.Storage{}
-	fmt.Println("Введите имя, возраст и курс студента!")
+	fmt.Println("Введите имя, возраст и курс студента! Please.")
 	for {
 		scanner := bufio.NewScanner(os.Stdin)
 		if !scanner.Scan() {
